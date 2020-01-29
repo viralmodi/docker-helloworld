@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: helloworld
-        image: karthequian/helloworld:latest
+        image: phx.ocir.io/your_tenancy_name/viralmodi/helloworld:latest
         ports:
         - containerPort: 80
 ---
